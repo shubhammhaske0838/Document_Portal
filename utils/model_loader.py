@@ -6,7 +6,7 @@ from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_groq import ChatGroq
 from logger.custom_logger import CustomLogger
-from exception.custome_exception import DocumentPortalException
+from exception.custom_exception import DocumentPortalException
 
 
 log = CustomLogger().get_logger(__name__)
